@@ -9,10 +9,13 @@
     display: flex;
     justify-content: space-evenly;
     padding: 22px;
-    background-color: #F8F6E3;
+    background-color: rgb(242, 237, 237);
     position: fixed;
    top: 0%;
  
+}
+.h1{
+    font-size: 1.7rem;
 }
 img{
     width: 40px;
@@ -41,7 +44,7 @@ li span{
 /* education */
 .commonclass{
     width: 100%;
-    border-top: 5px solid #7AA2E3;
+    border-top: 5px solid #5858d6;
     margin-bottom: 20px;
 }
 .education-sec1{
@@ -50,18 +53,18 @@ li span{
 }
 .education-sec1 h2{
  padding: 0 0 10px 20px;
- font-size: 1.7rem;
- color: #5858d6;
+ font-size: 1.6rem;
+ color: black;
 }
 #col{
     padding: 0 0 15px 20px;
-    font-size: 1.5rem;
-    color: rgb(71, 70, 70);
+    font-size: 1.4rem;
+    color:#5858d6;
 }
 .education-sec1 span{
     padding: 0 0 15px 20px;
-    font-size: 1.5rem;
-    color: #4c8fcf;
+    font-size: 1.2rem;
+    color: rgb(61, 60, 60);
 }
 /* experience */
 
@@ -71,18 +74,18 @@ li span{
 }
 .experience-sec1 h2{
     padding: 0 0 10px 20px;
- font-size: 1.7rem;
- color: #6AD4DD;
+ font-size: 1.6rem;
+ color: black;
 }
 .h4{
     padding: 0 0 10px 25px;
     font-size: 1.5rem;
-    color: #6AD4DD;
+    color: #5858d6;
 }
 .experience-sec1 li{
     padding: 0 0 15px 25px;
-    font-size: 1.3rem
-
+    font-size: 1.2rem;
+    color:rgb(61, 60, 60) ;
 }
 /* project-sec */
 .project-sec1{
@@ -92,18 +95,142 @@ li span{
 }
 .project-sec1 h2{
     padding: 0 0 10px 20px;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
 }
 .project-sec1 h2 a{
     text-decoration: none;
-    color: #6AD4DD; 
+    color: black; 
 }
 
 .project-sec1 li{
     padding: 0 0 15px 27px;
-    font-size: 1.3rem
+    font-size: 1.3rem;
+    color:rgb(61, 60, 60);
+}
+.skill-sec1 li{
+    padding: 0 0 8px 27px;
+    font-size: 1.2rem
 }
 
+.achievment-sec1 li{
+    padding: 0 0 8px 27px;
+    font-size: 1.2rem
+}
+.achievment-sec1 li a{
+    text-decoration: none;
+    color: rgb(77, 75, 75);
+}
+.achievment{
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: rgb(242, 237, 237);
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.3rem;
+    color: black;
+}
+
+
+@media screen and (max-width:800px){
+    .list{
+        display: none;
+        margin-inline: 15px;
+    }
+    li span{
+        font-size: 1.2rem
+    }
+    img{
+        width: 40px;
+        height: 40px;
+        margin-right: 15px;
+    }
+    .showData{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 15px;
+        background-color: gray;
+        gap: 15px;
+        border-radius: 5px;
+        position: fixed;
+        top: 70px;
+        right: 3%;
+    }
+    #bar{
+       display: block; 
+       font-size: 25px;
+       cursor: pointer;
+    }
+    .h1{
+        font-size: 1.3rem;
+    }
+    .education-sec1 h2{
+        padding: 0 0 10px 15px;
+        font-size: 1.2rem;
+        color: black;
+    }
+    #col{
+        padding: 0 0 15px 15px;
+        font-size: 1rem;
+        color:#5858d6;
+    }
+    .education-sec1 span{
+        padding: 0 0 15px 20px;
+        font-size: 0.9rem;
+        color: rgb(61, 60, 60);
+    }
+
+    .experience-sec1 h2{
+        padding: 0 0 10px 15px;
+     font-size: 1.2rem;
+     color: black;
+    }
+    .h4{
+        padding: 0 0 10px 20px;
+        font-size: 1rem;
+        color: #5858d6;
+    }
+    .experience-sec1 li{
+        padding: 0 0 10px 20px;
+        font-size: 0.9rem;
+        color:rgb(61, 60, 60) ;
+    }
+
+    .project-sec1 h2{
+        padding: 0 0 10px 15px;
+        font-size: 1.2rem;
+    }
+
+    .project-sec1 li{
+        padding: 0 0 15px 20px;
+        font-size: 0.9rem;
+        color:rgb(61, 60, 60);
+    }
+
+    .skill-sec1 li{
+        padding: 0 0 8px 20px;
+        font-size: 0.9rem
+    }
+
+    .achievment-sec1 li{
+        padding: 0 0 8px 20px;
+        font-size: 0.9rem
+    }
+
+    footer p {
+        margin: 0;
+        font-size: 1.2rem;
+        color: black;
+    }
+
+}
 
 
  
