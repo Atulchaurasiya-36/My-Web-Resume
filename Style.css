@@ -156,7 +156,7 @@ footer p {
         flex-direction: column;
         justify-content: center;
         padding: 15px;
-        background-color: gray;
+        background-color: rgb(242, 237, 237);
         gap: 15px;
         border-radius: 5px;
         position: fixed;
